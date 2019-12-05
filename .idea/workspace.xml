@@ -88,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575555483194</updated>
       <workItem from="1575555485943" duration="3493000" />
-      <workItem from="1575571829715" duration="693000" />
+      <workItem from="1575571829715" duration="1163000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Added new files">
       <created>1575555529209</created>
@@ -146,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575572489561</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fix: fixed docker file">
+      <created>1575572632932</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575572632932</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
