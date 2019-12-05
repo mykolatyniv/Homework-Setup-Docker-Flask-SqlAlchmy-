@@ -1,5 +1,5 @@
 # Homework-Setup-Docker-Flask-SqlAlchmy
-###Mykola Lupak
+### Mykola Lupak
 
 Complete this tutorial on getting Docker, Flask, Postgres and SQLalchemy working together:
 
