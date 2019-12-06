@@ -1,5 +1,3 @@
-.vscode
-.coverage
-.pytest_cache
-.coveralls.yml
-.env
+.idea
+venv
+/postgres-data/*
