@@ -17,14 +17,20 @@ def create():
   ######################
   return custom_response(data, 201)
 
-# add this function
-@blogpost_api.route('/', methods=['GET'])
-def get_all():
+  # app initiliazation
+  #####################
+  # existing code remain #
+  ######################
+
+@blogpost_api.route('/<int:blogpost_id>', methods=['GET'])
+def get_one(blogpost_id):
   """
-  Get All Blogposts
+  Get A Blogpost
   """
-  posts = BlogpostModel.get_all_blogposts()
-  data = blogpost_schema.dump(posts, many=True).data
+  post = BlogpostModel.get_one_blogpost(blogpost_id)
+  if not post:
+    return custom_response({'error': 'post not found'}, 404)
+  data = blogpost_schema.dump(post).data
   return custom_response(data, 200)
 
 
