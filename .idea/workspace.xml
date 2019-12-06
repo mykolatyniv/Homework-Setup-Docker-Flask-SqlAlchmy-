@@ -95,7 +95,7 @@
       <workItem from="1575555485943" duration="3493000" />
       <workItem from="1575571829715" duration="1163000" />
       <workItem from="1575641551113" duration="301000" />
-      <workItem from="1575659902132" duration="510000" />
+      <workItem from="1575659902132" duration="763000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Added new files">
       <created>1575555529209</created>
@@ -209,7 +209,49 @@
       <option name="project" value="LOCAL" />
       <updated>1575660373023</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Task: added run.py file">
+      <created>1575660431254</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1575660431254</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Task: added src/models/__init__.py info">
+      <created>1575660489417</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1575660489417</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Task: added src/models/UserModel file">
+      <created>1575660541068</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1575660541068</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Task: updated UserModel file">
+      <created>1575660587134</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1575660587134</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Task: created BlogpostModel.py file">
+      <created>1575660624493</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1575660624493</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Task: updated user model file">
+      <created>1575660659915</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1575660659915</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +282,13 @@
     <MESSAGE value="Task: added new files" />
     <MESSAGE value="Task: added config.py file" />
     <MESSAGE value="Task: added app.py file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task: added app.py file" />
+    <MESSAGE value="Task: added run.py file" />
+    <MESSAGE value="Task: added src/models/__init__.py info" />
+    <MESSAGE value="Task: added src/models/UserModel file" />
+    <MESSAGE value="Task: updated UserModel file" />
+    <MESSAGE value="Task: created BlogpostModel.py file" />
+    <MESSAGE value="Task: updated user model file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: updated user model file" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Homework_Setup_Docker_Flask_SqlAlchmy_$Homework_Setup_Docker_Flask_SqlAlchmy_.coverage" NAME="Homework-Setup-Docker-Flask-SqlAlchmy- Coverage Results" MODIFIED="1575658988145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
