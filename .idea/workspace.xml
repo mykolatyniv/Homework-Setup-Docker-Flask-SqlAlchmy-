@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="515af206-d969-4a2e-a8bf-44f05473597a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog_api/.coveragerc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/.env.sample" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coveragerc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/blog_api/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_api/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/blog_api/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_api/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog_api/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_api/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_api/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_api/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_api/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" />
-    </list>
+    <list default="true" id="515af206-d969-4a2e-a8bf-44f05473597a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
