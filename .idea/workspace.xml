@@ -95,7 +95,7 @@
       <workItem from="1575555485943" duration="3493000" />
       <workItem from="1575571829715" duration="1163000" />
       <workItem from="1575641551113" duration="301000" />
-      <workItem from="1575659902132" duration="763000" />
+      <workItem from="1575659902132" duration="1005000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Added new files">
       <created>1575555529209</created>
@@ -251,7 +251,49 @@
       <option name="project" value="LOCAL" />
       <updated>1575660659915</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Task: updated BlogpostModel file">
+      <created>1575660694624</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1575660694624</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Task: updated app.py file">
+      <created>1575660727919</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1575660727919</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Task: added manage.py file">
+      <created>1575660769941</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1575660769941</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Task: added views/UserView file">
+      <created>1575660822074</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1575660822074</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Task: created Authentication file">
+      <created>1575660861817</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1575660861817</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Task: edited Authentication file">
+      <created>1575660890308</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1575660890308</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +330,13 @@
     <MESSAGE value="Task: updated UserModel file" />
     <MESSAGE value="Task: created BlogpostModel.py file" />
     <MESSAGE value="Task: updated user model file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task: updated user model file" />
+    <MESSAGE value="Task: updated BlogpostModel file" />
+    <MESSAGE value="Task: updated app.py file" />
+    <MESSAGE value="Task: added manage.py file" />
+    <MESSAGE value="Task: added views/UserView file" />
+    <MESSAGE value="Task: created Authentication file" />
+    <MESSAGE value="Task: edited Authentication file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: edited Authentication file" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Homework_Setup_Docker_Flask_SqlAlchmy_$Homework_Setup_Docker_Flask_SqlAlchmy_.coverage" NAME="Homework-Setup-Docker-Flask-SqlAlchmy- Coverage Results" MODIFIED="1575658988145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
