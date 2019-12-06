@@ -95,7 +95,7 @@
       <workItem from="1575555485943" duration="3493000" />
       <workItem from="1575571829715" duration="1163000" />
       <workItem from="1575641551113" duration="301000" />
-      <workItem from="1575659902132" duration="259000" />
+      <workItem from="1575659902132" duration="510000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Added new files">
       <created>1575555529209</created>
@@ -195,7 +195,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575655386356</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Task: added config.py file">
+      <created>1575660193265</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1575660193265</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Task: added app.py file">
+      <created>1575660373023</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1575660373023</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +238,9 @@
     <MESSAGE value="Task: added Pipfile" />
     <MESSAGE value="Task: added new folders and files, per File structures" />
     <MESSAGE value="Task: added new files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task: added new files" />
+    <MESSAGE value="Task: added config.py file" />
+    <MESSAGE value="Task: added app.py file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: added app.py file" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Homework_Setup_Docker_Flask_SqlAlchmy_$Homework_Setup_Docker_Flask_SqlAlchmy_.coverage" NAME="Homework-Setup-Docker-Flask-SqlAlchmy- Coverage Results" MODIFIED="1575658988145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
