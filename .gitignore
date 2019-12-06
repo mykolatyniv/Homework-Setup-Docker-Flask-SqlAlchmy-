@@ -1,3 +1,5 @@
-.idea
-venv
-/postgres-data/*
+.vscode
+.coverage
+.pytest_cache
+.coveralls.yml
+.env
