@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515af206-d969-4a2e-a8bf-44f05473597a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog_api/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/models/BlogpostModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/models/UserModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/shared/Authentication.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/shared/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/tests/test_users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/views/BlogpostView.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/views/UserView.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_api/run.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -187,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575654661677</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Task: added new folders and files, per File structures">
+      <created>1575654879429</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1575654879429</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +209,8 @@
     <MESSAGE value="Fix: fixed docker file" />
     <MESSAGE value="Task: updated readme file" />
     <MESSAGE value="Task: added Pipfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task: added Pipfile" />
+    <MESSAGE value="Task: added new folders and files, per File structures" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: added new folders and files, per File structures" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Homework_Setup_Docker_Flask_SqlAlchmy_$Homework_Setup_Docker_Flask_SqlAlchmy_.coverage" NAME="Homework-Setup-Docker-Flask-SqlAlchmy- Coverage Results" MODIFIED="1575641581324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
