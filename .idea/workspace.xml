@@ -30,7 +30,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog_api/src/app.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog_api" />
   </component>
   <component name="RunManager">
     <configuration name="Homework-Setup-Docker-Flask-SqlAlchmy-" type="Python.FlaskServer">
@@ -106,7 +106,7 @@
       <workItem from="1575905723442" duration="21000" />
       <workItem from="1575905815164" duration="56000" />
       <workItem from="1575905984643" duration="93000" />
-      <workItem from="1575988464698" duration="3036000" />
+      <workItem from="1575988464698" duration="3369000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Added new files">
       <created>1575555529209</created>
@@ -220,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575988587796</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Feature: updated readme file">
+      <created>1575991716932</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1575991716932</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,22 +268,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="321" y="67" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680@0.0.1280.680" timestamp="1575906072800" />
-    <state x="386" y="0" key="CommitChangelistDialog2" timestamp="1575988586733">
+    <state x="362" y="0" key="CommitChangelistDialog2" timestamp="1575991716075">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="386" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1575988586733" />
+    <state x="362" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1575991716075" />
     <state x="516" y="94" key="FileChooserDialogImpl" timestamp="1575989372875">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="516" y="94" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1575989372875" />
+    <state width="610" height="53" key="GridCell.Tab.0.bottom" timestamp="1575991838275">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="610" height="53" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1575991838275" />
+    <state width="610" height="53" key="GridCell.Tab.0.center" timestamp="1575991838275">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="610" height="53" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1575991838275" />
+    <state width="610" height="53" key="GridCell.Tab.0.left" timestamp="1575991838275">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="610" height="53" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1575991838275" />
+    <state width="610" height="53" key="GridCell.Tab.0.right" timestamp="1575991838275">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="610" height="53" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1575991838275" />
     <state x="442" y="149" key="IDE.errors.dialog" timestamp="1575991635998">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="442" y="149" key="IDE.errors.dialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1575991635998" />
-    <state x="228" y="145" key="Vcs.Push.Dialog.v2" timestamp="1575988592686">
+    <state x="228" y="145" key="Vcs.Push.Dialog.v2" timestamp="1575991722049">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="228" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1575988592686" />
+    <state x="228" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1575991722049" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Homework_Setup_Docker_Flask_SqlAlchmy_$Homework_Setup_Docker_Flask_SqlAlchmy_.coverage" NAME="Homework-Setup-Docker-Flask-SqlAlchmy- Coverage Results" MODIFIED="1575989380537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
