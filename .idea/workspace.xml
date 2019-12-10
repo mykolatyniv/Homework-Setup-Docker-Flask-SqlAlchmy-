@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515af206-d969-4a2e-a8bf-44f05473597a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blog_api/migrations/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_api/migrations/alembic.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_api/migrations/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_api/migrations/script.py.mako" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_api/migrations/versions/e23b7256bd81_.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +36,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/blog_api" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\c16159\Desktop\Files\homework\Homework-Setup-Docker-Flask-SqlAlchmy-\blog_api" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Homework-Setup-Docker-Flask-SqlAlchmy-" type="Python.FlaskServer">
@@ -107,6 +117,7 @@
       <workItem from="1575905815164" duration="56000" />
       <workItem from="1575905984643" duration="93000" />
       <workItem from="1575988464698" duration="3369000" />
+      <workItem from="1575991853716" duration="1958000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Added new files">
       <created>1575555529209</created>
@@ -227,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575991716932</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Task: travis added">
+      <created>1575991949394</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1575991949394</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +275,8 @@
     <MESSAGE value="Task: added new procfile" />
     <MESSAGE value="Feature: updated with new information" />
     <MESSAGE value="Feature: updated readme file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature: updated readme file" />
+    <MESSAGE value="Task: travis added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: travis added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575989375404">
@@ -268,10 +287,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="321" y="67" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680@0.0.1280.680" timestamp="1575906072800" />
-    <state x="362" y="0" key="CommitChangelistDialog2" timestamp="1575991716075">
+    <state x="362" y="0" key="CommitChangelistDialog2" timestamp="1575991948344">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="362" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1575991716075" />
+    <state x="362" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1575991948344" />
     <state x="516" y="94" key="FileChooserDialogImpl" timestamp="1575989372875">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -292,16 +311,16 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="610" height="53" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1575991838275" />
-    <state x="442" y="149" key="IDE.errors.dialog" timestamp="1575991635998">
+    <state x="442" y="149" key="IDE.errors.dialog" timestamp="1575994808032">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="442" y="149" key="IDE.errors.dialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1575991635998" />
-    <state x="228" y="145" key="Vcs.Push.Dialog.v2" timestamp="1575991722049">
+    <state x="442" y="149" key="IDE.errors.dialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1575994808032" />
+    <state x="228" y="145" key="Vcs.Push.Dialog.v2" timestamp="1575991957629">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="228" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1575991722049" />
+    <state x="228" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1575991957629" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Homework_Setup_Docker_Flask_SqlAlchmy_$Homework_Setup_Docker_Flask_SqlAlchmy_.coverage" NAME="Homework-Setup-Docker-Flask-SqlAlchmy- Coverage Results" MODIFIED="1575989380537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Homework_Setup_Docker_Flask_SqlAlchmy_$Homework_Setup_Docker_Flask_SqlAlchmy_.coverage" NAME="Homework-Setup-Docker-Flask-SqlAlchmy- Coverage Results" MODIFIED="1575994779794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
