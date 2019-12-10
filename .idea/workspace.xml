@@ -127,7 +127,8 @@
       <workItem from="1575905984643" duration="93000" />
       <workItem from="1575988464698" duration="3369000" />
       <workItem from="1575991853716" duration="3784000" />
-      <workItem from="1576002758982" duration="148000" />
+      <workItem from="1576002758982" duration="1320000" />
+      <workItem from="1576007352923" duration="150000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Added new files">
       <created>1575555529209</created>
@@ -276,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576002560617</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Fix: fixed database">
+      <created>1576003043367</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1576003043367</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +318,8 @@
     <MESSAGE value="Task: added database file" />
     <MESSAGE value="Fix: fixed database files" />
     <MESSAGE value="Fix: fixed source folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: fixed source folder" />
+    <MESSAGE value="Fix: fixed database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: fixed database" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" key="#Inspections" timestamp="1576001084217">
@@ -325,10 +334,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="321" y="67" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680@0.0.1280.680" timestamp="1575906072800" />
-    <state x="356" y="0" key="CommitChangelistDialog2" timestamp="1576002559650">
+    <state x="356" y="0" key="CommitChangelistDialog2" timestamp="1576003041974">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="356" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576002559650" />
+    <state x="356" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576003041974" />
     <state x="575" y="228" key="DockerComposeFileDialog" timestamp="1576002899397">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -353,18 +362,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="610" height="81" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576002724316" />
-    <state x="442" y="149" key="IDE.errors.dialog" timestamp="1576002479580">
+    <state x="442" y="149" key="IDE.errors.dialog" timestamp="1576011269391">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="442" y="149" key="IDE.errors.dialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576002479580" />
+    <state x="442" y="149" key="IDE.errors.dialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576011269391" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1576002545198">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576002545198" />
-    <state x="228" y="145" key="Vcs.Push.Dialog.v2" timestamp="1576002564041">
+    <state x="228" y="145" key="Vcs.Push.Dialog.v2" timestamp="1576003048563">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="228" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576002564041" />
+    <state x="228" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576003048563" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Homework_Setup_Docker_Flask_SqlAlchmy_$Homework_Setup_Docker_Flask_SqlAlchmy_.coverage" NAME="Homework-Setup-Docker-Flask-SqlAlchmy- Coverage Results" MODIFIED="1576001541382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
