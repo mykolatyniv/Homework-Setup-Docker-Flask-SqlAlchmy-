@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515af206-d969-4a2e-a8bf-44f05473597a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Homework-Setup-Docker-Flask-SqlAlchmy-.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Homework-Setup-Docker-Flask-SqlAlchmy-.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +31,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog_api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/example/__init__.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -40,13 +42,13 @@
   <component name="RunManager">
     <configuration name="Homework-Setup-Docker-Flask-SqlAlchmy-" type="Python.FlaskServer">
       <module name="Homework-Setup-Docker-Flask-SqlAlchmy-" />
-      <option name="target" value="C:\Users\c16159\Desktop\Files\homework\Homework-Setup-Docker-Flask-SqlAlchmy-\blog_api\src\app.py" />
+      <option name="target" value="C:\Users\c16159\Desktop\Files\homework\Homework-Setup-Docker-Flask-SqlAlchmy-\src\example\__init__.py" />
       <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="docker://2ndminiproject:latest/python" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="DockerContainerSettingsRunConfigurationExtension">
@@ -112,7 +114,7 @@
       <workItem from="1575905815164" duration="56000" />
       <workItem from="1575905984643" duration="93000" />
       <workItem from="1575988464698" duration="3369000" />
-      <workItem from="1575991853716" duration="2146000" />
+      <workItem from="1575991853716" duration="3605000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Added new files">
       <created>1575555529209</created>
@@ -247,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576000920609</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Fix: fixed database files">
+      <created>1576001152008</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1576001152008</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,55 +288,60 @@
     <MESSAGE value="Feature: updated readme file" />
     <MESSAGE value="Task: travis added" />
     <MESSAGE value="Task: added database file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task: added database file" />
+    <MESSAGE value="Fix: fixed database files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: fixed database files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" key="#Inspections" timestamp="1576001084217">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" key="#Inspections/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576001084217" />
-    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575989375404">
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576002322939">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1575989375404" />
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576002322939" />
     <state x="321" y="67" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575906072800">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="321" y="67" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680@0.0.1280.680" timestamp="1575906072800" />
-    <state x="362" y="0" key="CommitChangelistDialog2" timestamp="1576000919534">
+    <state x="362" y="0" key="CommitChangelistDialog2" timestamp="1576001150872">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="362" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576000919534" />
-    <state x="516" y="94" key="FileChooserDialogImpl" timestamp="1575989372875">
+    <state x="362" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576001150872" />
+    <state x="516" y="94" key="FileChooserDialogImpl" timestamp="1576002320971">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="516" y="94" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1575989372875" />
-    <state width="610" height="81" key="GridCell.Tab.0.bottom" timestamp="1576000932160">
+    <state x="516" y="94" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576002320971" />
+    <state width="610" height="81" key="GridCell.Tab.0.bottom" timestamp="1576001541390">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="610" height="81" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576000932160" />
-    <state width="610" height="81" key="GridCell.Tab.0.center" timestamp="1576000932159">
+    <state width="610" height="81" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576001541390" />
+    <state width="610" height="81" key="GridCell.Tab.0.center" timestamp="1576001541390">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="610" height="81" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576000932159" />
-    <state width="610" height="81" key="GridCell.Tab.0.left" timestamp="1576000932159">
+    <state width="610" height="81" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576001541390" />
+    <state width="610" height="81" key="GridCell.Tab.0.left" timestamp="1576001541390">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="610" height="81" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576000932159" />
-    <state width="610" height="81" key="GridCell.Tab.0.right" timestamp="1576000932160">
+    <state width="610" height="81" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576001541390" />
+    <state width="610" height="81" key="GridCell.Tab.0.right" timestamp="1576001541390">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="610" height="81" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576000932160" />
-    <state x="442" y="149" key="IDE.errors.dialog" timestamp="1575994808032">
+    <state width="610" height="81" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576001541390" />
+    <state x="442" y="149" key="IDE.errors.dialog" timestamp="1576002479580">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="442" y="149" key="IDE.errors.dialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1575994808032" />
-    <state x="228" y="145" key="Vcs.Push.Dialog.v2" timestamp="1576000924399">
+    <state x="442" y="149" key="IDE.errors.dialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576002479580" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1576002545198">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="228" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576000924399" />
+    <state x="0" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576002545198" />
+    <state x="228" y="145" key="Vcs.Push.Dialog.v2" timestamp="1576001155393">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="228" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576001155393" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Homework_Setup_Docker_Flask_SqlAlchmy_$Homework_Setup_Docker_Flask_SqlAlchmy_.coverage" NAME="Homework-Setup-Docker-Flask-SqlAlchmy- Coverage Results" MODIFIED="1576000932143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Homework_Setup_Docker_Flask_SqlAlchmy_$Homework_Setup_Docker_Flask_SqlAlchmy_.coverage" NAME="Homework-Setup-Docker-Flask-SqlAlchmy- Coverage Results" MODIFIED="1576001541382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
