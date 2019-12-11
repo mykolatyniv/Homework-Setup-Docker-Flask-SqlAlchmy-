@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515af206-d969-4a2e-a8bf-44f05473597a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog_api/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/Pipfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/Pipfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/models/BlogpostModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/models/UserModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/shared/Authentication.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/shared/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/tests/test_users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/views/BlogpostView.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/views/UserView.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog_api/src/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_api/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_api/docker-compose.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_api/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,24 +24,18 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/example/__init__.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog_api/docker-compose.yml" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.Dockerfile">
     <configuration name="Homework-Setup-Docker-Flask-SqlAlchmy-" type="Python.FlaskServer">
       <module name="Homework-Setup-Docker-Flask-SqlAlchmy-" />
       <option name="target" value="C:\Users\c16159\Desktop\Files\homework\Homework-Setup-Docker-Flask-SqlAlchmy-\src\example\__init__.py" />
@@ -100,6 +79,31 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="commandLineOptions" value="--build" />
+          <option name="sourceFilePath" value="blog_api/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.Dockerfile" />
+      <item itemvalue="Flask server.Homework-Setup-Docker-Flask-SqlAlchmy-" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -114,6 +118,7 @@
       <workItem from="1575555485943" duration="3493000" />
       <workItem from="1575571829715" duration="1163000" />
       <workItem from="1575641551113" duration="301000" />
+      <workItem from="1576097575930" duration="51000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Added new files">
       <created>1575555529209</created>
@@ -212,6 +217,20 @@
     <MESSAGE value="Fix: fixed docker file" />
     <MESSAGE value="Task: updated readme file" />
     <option name="LAST_COMMIT_MESSAGE" value="Task: updated readme file" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576097626106">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576097626106" />
+    <state x="384" y="228" key="DockerComposeFileDialog" timestamp="1576097623201">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="384" y="228" key="DockerComposeFileDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576097623201" />
+    <state x="326" y="94" key="FileChooserDialogImpl" timestamp="1576097622225">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="326" y="94" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576097622225" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Homework_Setup_Docker_Flask_SqlAlchmy_$Homework_Setup_Docker_Flask_SqlAlchmy_.coverage" NAME="Homework-Setup-Docker-Flask-SqlAlchmy- Coverage Results" MODIFIED="1575641581324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
