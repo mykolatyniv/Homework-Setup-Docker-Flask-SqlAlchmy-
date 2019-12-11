@@ -1,4 +1,4 @@
-#src/app.py
+# src/app.py
 
 from flask import Flask
 
@@ -11,28 +11,27 @@ from .views.BlogpostView import blogpost_api as blogpost_blueprint
 
 
 def create_app(env_name):
-  """
+    """
   Create app
   """
-  
-  # app initiliazation
-  app = Flask(__name__)
 
-  app.config.from_object(app_config[env_name])
+    # app initiliazation
+    app = Flask(__name__)
 
-  # initializing bcrypt and db
-  bcrypt.init_app(app)
-  db.init_app(app)
+    app.config.from_object(app_config[env_name])
 
-  app.register_blueprint(user_blueprint, url_prefix='/api/v1/users')
-  app.register_blueprint(blogpost_blueprint, url_prefix='/api/v1/blogposts')
+    # initializing bcrypt and db
+    bcrypt.init_app(app)
+    db.init_app(app)
 
-  @app.route('/', methods=['GET'])
-  def index():
-    """
+    app.register_blueprint(user_blueprint, url_prefix='/api/v1/users')
+    app.register_blueprint(blogpost_blueprint, url_prefix='/api/v1/blogposts')
+
+    @app.route('/', methods=['GET'])
+    def index():
+        """
     example endpoint
     """
-    return 'Congratulations! Your part 2 endpoint is working'
+        return 'Congratulations! Your part 2 endpoint is working'
 
-  return app
-
+    return app
