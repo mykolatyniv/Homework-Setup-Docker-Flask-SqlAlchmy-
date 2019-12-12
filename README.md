@@ -1,4 +1,4 @@
-# Mini Project 3: Web Application - Part 3 
+# Mini Project: Web Application - Part 3 
 ### Mykola Lupak
 
 For this assignment you need to follow this tutorial to create the application.
