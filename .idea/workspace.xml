@@ -49,7 +49,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/blog_api_tutorial" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog_api/docker-compose.yml" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -62,7 +62,7 @@
       <deployment type="docker-compose.yml">
         <settings>
           <option name="commandLineOptions" value="--build" />
-          <option name="sourceFilePath" value="docker-compose.yml" />
+          <option name="sourceFilePath" value="blog_api/docker-compose.yml" />
         </settings>
       </deployment>
       <method v="2" />
@@ -73,7 +73,12 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -111,7 +116,7 @@
       <workItem from="1576114161058" duration="595000" />
       <workItem from="1576118883573" duration="1224000" />
       <workItem from="1576120474148" duration="220000" />
-      <workItem from="1576122799327" duration="1036000" />
+      <workItem from="1576122799327" duration="1231000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Added new files">
       <created>1575555529209</created>
@@ -414,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576123529786</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Task: updated database and docker">
+      <created>1576123952365</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1576123952365</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,17 +467,18 @@
     <MESSAGE value="Task: removed docker file" />
     <MESSAGE value="Task: removed file" />
     <MESSAGE value="Task: removed files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task: removed files" />
+    <MESSAGE value="Task: updated database and docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: updated database and docker" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" key="#Inspections" timestamp="1576001084217">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" key="#Inspections/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576001084217" />
-    <state x="2207" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576120693056">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576124032244">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576119180410" />
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576124032244" />
     <state x="2207" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576120693056" />
     <state x="321" y="67" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575906072800">
       <screen x="0" y="0" width="1280" height="680" />
@@ -475,20 +488,20 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576119885467" />
-    <state x="2424" y="0" key="CommitChangelistDialog2" timestamp="1576123528778">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="336" y="0" key="CommitChangelistDialog2" timestamp="1576123951350">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="336" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576119937997" />
+    <state x="336" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576123951350" />
     <state x="2424" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576123528778" />
-    <state x="2783" y="349" key="DockerComposeFileDialog" timestamp="1576120688417">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="575" y="228" key="DockerComposeFileDialog" timestamp="1576124029164">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="575" y="228" key="DockerComposeFileDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576002899397" />
+    <state x="575" y="228" key="DockerComposeFileDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576124029164" />
     <state x="2783" y="349" key="DockerComposeFileDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576120688417" />
-    <state x="2694" y="144" key="FileChooserDialogImpl" timestamp="1576122847957">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="516" y="94" key="FileChooserDialogImpl" timestamp="1576124021282">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="516" y="94" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576112560783" />
+    <state x="516" y="94" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576124021282" />
     <state x="2694" y="144" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576122847957" />
     <state width="617" height="220" key="GridCell.Tab.0.bottom" timestamp="1576113517740">
       <screen x="0" y="0" width="1280" height="680" />
@@ -515,10 +528,10 @@
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576002545198" />
     <state x="1920" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576122911683" />
-    <state x="2262" y="222" key="Vcs.Push.Dialog.v2" timestamp="1576123537455">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="228" y="145" key="Vcs.Push.Dialog.v2" timestamp="1576123956129">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="228" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576119942368" />
+    <state x="228" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576123956129" />
     <state x="2262" y="222" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576123537455" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
