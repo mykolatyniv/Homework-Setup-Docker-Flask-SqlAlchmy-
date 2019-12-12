@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="515af206-d969-4a2e-a8bf-44f05473597a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_api/src/shared/Authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_api/src/shared/Authentication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_api/src/views/UserView.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_api/src/views/UserView.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +135,7 @@
       <workItem from="1575659902132" duration="1005000" />
       <workItem from="1576097400876" duration="97000" />
       <workItem from="1576115092515" duration="251000" />
-      <workItem from="1576115684373" duration="2291000" />
+      <workItem from="1576115684373" duration="2900000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Added new files">
       <created>1575555529209</created>
@@ -408,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576117916892</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Fix: fixed files, due to some errors">
+      <created>1576117982226</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1576117982226</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,10 +469,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576116666885" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1576117915966">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1576117981388">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576117915966" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576117981388" />
     <state x="384" y="228" key="DockerComposeFileDialog" timestamp="1576097494659">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
