@@ -57,7 +57,7 @@
       <recent name="C:\Users\c16159\Desktop\Files\homework\Homework-Setup-Docker-Flask-SqlAlchmy-\blog_api" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile1">
+  <component name="RunManager" selected="Docker.Docker-file">
     <configuration name="Docker-file" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -135,7 +135,7 @@
       <workItem from="1576099537773" duration="259000" />
       <workItem from="1576100150236" duration="36000" />
       <workItem from="1576101791221" duration="2434000" />
-      <workItem from="1576111767918" duration="1551000" />
+      <workItem from="1576111767918" duration="1747000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Added new files">
       <created>1575555529209</created>
@@ -375,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576112983623</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Task: updated database file">
+      <created>1576113325121</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1576113325121</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,10 +435,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="321" y="67" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680@0.0.1280.680" timestamp="1575906072800" />
-    <state x="336" y="0" key="CommitChangelistDialog2" timestamp="1576112982517">
+    <state x="336" y="0" key="CommitChangelistDialog2" timestamp="1576113324286">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="336" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576112982517" />
+    <state x="336" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576113324286" />
     <state x="575" y="228" key="DockerComposeFileDialog" timestamp="1576002899397">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -440,22 +447,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="516" y="94" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576112560783" />
-    <state width="617" height="220" key="GridCell.Tab.0.bottom" timestamp="1576112736425">
+    <state width="617" height="220" key="GridCell.Tab.0.bottom" timestamp="1576113517740">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="617" height="220" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576112736425" />
-    <state width="617" height="220" key="GridCell.Tab.0.center" timestamp="1576112736425">
+    <state width="617" height="220" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576113517740" />
+    <state width="617" height="220" key="GridCell.Tab.0.center" timestamp="1576113517740">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="617" height="220" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576112736425" />
-    <state width="617" height="220" key="GridCell.Tab.0.left" timestamp="1576112736425">
+    <state width="617" height="220" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576113517740" />
+    <state width="617" height="220" key="GridCell.Tab.0.left" timestamp="1576113517740">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="617" height="220" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576112736425" />
-    <state width="617" height="220" key="GridCell.Tab.0.right" timestamp="1576112736425">
+    <state width="617" height="220" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576113517740" />
+    <state width="617" height="220" key="GridCell.Tab.0.right" timestamp="1576113517740">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="617" height="220" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576112736425" />
+    <state width="617" height="220" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576113517740" />
     <state x="442" y="149" key="IDE.errors.dialog" timestamp="1576011269391">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -464,10 +471,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576002545198" />
-    <state x="228" y="145" key="Vcs.Push.Dialog.v2" timestamp="1576112988470">
+    <state x="228" y="145" key="Vcs.Push.Dialog.v2" timestamp="1576113330973">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="228" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576112988470" />
+    <state x="228" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576113330973" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Homework_Setup_Docker_Flask_SqlAlchmy_$run.coverage" NAME="run Coverage Results" MODIFIED="1576112580359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/blog_api" />
