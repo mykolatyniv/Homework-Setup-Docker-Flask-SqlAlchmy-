@@ -2,7 +2,7 @@ version: '3.5'
 services:
   database:
     container_name: postgres1
-    image: postgres:latest
+    image: postgres1:latest
     env_file: database.conf
     ports:
       - 5432:5432  
