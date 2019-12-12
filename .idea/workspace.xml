@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="515af206-d969-4a2e-a8bf-44f05473597a" name="Default Changelist" comment="" />
+    <list default="true" id="515af206-d969-4a2e-a8bf-44f05473597a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/blog_api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/blog_api/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_api/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/blog_api/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_api/docker-compose.bak" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,6 +119,7 @@
       <workItem from="1575641551113" duration="301000" />
       <workItem from="1575659902132" duration="1005000" />
       <workItem from="1576097400876" duration="97000" />
+      <workItem from="1576115092515" duration="251000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Added new files">
       <created>1575555529209</created>

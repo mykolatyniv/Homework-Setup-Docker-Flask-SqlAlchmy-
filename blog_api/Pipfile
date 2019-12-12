@@ -12,12 +12,6 @@ flask-script = "*"
 marshmallow = "*"
 flask-bcrypt = "*"
 pyjwt = "*"
-pytest = "*"
-coverage = "*"
-pytest-cov = "*"
-python-coveralls = "*"
-gunicorn = "*"
-python-dotenv = "*"
 
 [dev-packages]
 
