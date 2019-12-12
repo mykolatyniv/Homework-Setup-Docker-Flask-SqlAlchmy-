@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="515af206-d969-4a2e-a8bf-44f05473597a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_api/migrations/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_api/migrations/alembic.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_api/migrations/env.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_api/migrations/script.py.mako" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_api/migrations/versions/e23b7256bd81_.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +111,7 @@
       <workItem from="1576114161058" duration="595000" />
       <workItem from="1576118883573" duration="1224000" />
       <workItem from="1576120474148" duration="220000" />
-      <workItem from="1576122799327" duration="720000" />
+      <workItem from="1576122799327" duration="1036000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Added new files">
       <created>1575555529209</created>
@@ -412,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576119938888</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Task: removed files">
+      <created>1576123529786</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1576123529786</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +454,8 @@
     <MESSAGE value="Task: updated dockerfile" />
     <MESSAGE value="Task: removed docker file" />
     <MESSAGE value="Task: removed file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task: removed file" />
+    <MESSAGE value="Task: removed files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: removed files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" key="#Inspections" timestamp="1576001084217">
@@ -472,11 +475,11 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576119885467" />
-    <state x="336" y="0" key="CommitChangelistDialog2" timestamp="1576119937997">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="2424" y="0" key="CommitChangelistDialog2" timestamp="1576123528778">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="336" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576119937997" />
-    <state x="2424" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576114507613" />
+    <state x="2424" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576123528778" />
     <state x="2783" y="349" key="DockerComposeFileDialog" timestamp="1576120688417">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -512,11 +515,11 @@
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576002545198" />
     <state x="1920" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576122911683" />
-    <state x="228" y="145" key="Vcs.Push.Dialog.v2" timestamp="1576119942368">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="2262" y="222" key="Vcs.Push.Dialog.v2" timestamp="1576123537455">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="228" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576119942368" />
-    <state x="2262" y="222" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576114513364" />
+    <state x="2262" y="222" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576123537455" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Homework_Setup_Docker_Flask_SqlAlchmy_$run.coverage" NAME="run Coverage Results" MODIFIED="1576112580359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/blog_api" />
