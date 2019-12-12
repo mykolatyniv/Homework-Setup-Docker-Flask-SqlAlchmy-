@@ -49,7 +49,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog_api/run.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yml" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -57,7 +57,7 @@
       <recent name="C:\Users\c16159\Desktop\Files\homework\Homework-Setup-Docker-Flask-SqlAlchmy-\blog_api" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile1">
+  <component name="RunManager">
     <configuration name="Docker-file" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -67,24 +67,6 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="Dockerfile1" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="buildCliOptions" value="" />
-          <option name="command" value="" />
-          <option name="containerName" value="" />
-          <option name="entrypoint" value="" />
-          <option name="imageTag" value="dockerfile" />
-          <option name="commandLineOptions" value="" />
-          <option name="sourceFilePath" value="blog_api/Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Docker.Dockerfile1" />
-      <item itemvalue="Docker.Docker-file" />
-    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -127,7 +109,8 @@
       <workItem from="1576101791221" duration="2434000" />
       <workItem from="1576111767918" duration="1747000" />
       <workItem from="1576114161058" duration="595000" />
-      <workItem from="1576118883573" duration="845000" />
+      <workItem from="1576118883573" duration="1224000" />
+      <workItem from="1576120474148" duration="220000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Added new files">
       <created>1575555529209</created>
@@ -409,7 +392,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576119477274</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Task: removed docker file">
+      <created>1576119912039</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1576119912039</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Task: removed file">
+      <created>1576119938888</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1576119938888</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,18 +444,20 @@
     <MESSAGE value="Task: updated requiremets file" />
     <MESSAGE value="Task: updated database file" />
     <MESSAGE value="Task: updated dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task: updated dockerfile" />
+    <MESSAGE value="Task: removed docker file" />
+    <MESSAGE value="Task: removed file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: removed file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" key="#Inspections" timestamp="1576001084217">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" key="#Inspections/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576001084217" />
-    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576119180410">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="2207" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576120693056">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576119180410" />
-    <state x="2207" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576114533229" />
+    <state x="2207" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576120693056" />
     <state x="321" y="67" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575906072800">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -467,19 +466,21 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576119885467" />
-    <state x="336" y="0" key="CommitChangelistDialog2" timestamp="1576119911006">
+    <state x="336" y="0" key="CommitChangelistDialog2" timestamp="1576119937997">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="336" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576119911006" />
+    <state x="336" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576119937997" />
     <state x="2424" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576114507613" />
-    <state x="575" y="228" key="DockerComposeFileDialog" timestamp="1576002899397">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="2783" y="349" key="DockerComposeFileDialog" timestamp="1576120688417">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="575" y="228" key="DockerComposeFileDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576002899397" />
-    <state x="516" y="94" key="FileChooserDialogImpl" timestamp="1576112560783">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="2783" y="349" key="DockerComposeFileDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576120688417" />
+    <state x="2694" y="144" key="FileChooserDialogImpl" timestamp="1576120686266">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="516" y="94" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576112560783" />
+    <state x="2694" y="144" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576120686266" />
     <state width="617" height="220" key="GridCell.Tab.0.bottom" timestamp="1576113517740">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -504,10 +505,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576002545198" />
-    <state x="228" y="145" key="Vcs.Push.Dialog.v2" timestamp="1576119915194">
+    <state x="228" y="145" key="Vcs.Push.Dialog.v2" timestamp="1576119942368">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="228" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576119915194" />
+    <state x="228" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576119942368" />
     <state x="2262" y="222" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576114513364" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
