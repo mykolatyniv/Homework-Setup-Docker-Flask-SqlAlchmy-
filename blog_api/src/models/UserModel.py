@@ -2,7 +2,7 @@
 from marshmallow import fields, Schema
 import datetime
 from . import db
-
+from ..app import bcrypt
 
 class UserModel(db.Model):
     """
@@ -27,6 +27,7 @@ class UserModel(db.Model):
         self.name = data.get('name')
         self.email = data.get('email')
         self.password = data.get('password')
+        self.password = self.__generate_hash(data.get('password'))
         self.created_at = datetime.datetime.utcnow()
         self.modified_at = datetime.datetime.utcnow()
 
@@ -36,6 +37,8 @@ class UserModel(db.Model):
 
     def update(self, data):
         for key, item in data.items():
+            if key == 'password':  # add this new line
+                self.password = self.__generate_hash(value)  # add this new line
             setattr(self, key, item)
         self.modified_at = datetime.datetime.utcnow()
         db.session.commit()
@@ -43,6 +46,14 @@ class UserModel(db.Model):
     def delete(self):
         db.session.delete(self)
         db.session.commit()
+
+    # add this new method
+    def __generate_hash(self, password):
+        return bcrypt.generate_password_hash(password, rounds=10).decode("utf-8")
+
+    # add this new method
+    def check_hash(self, password):
+        return bcrypt.check_password_hash(self.password, password)
 
     @staticmethod
     def get_all_users():
