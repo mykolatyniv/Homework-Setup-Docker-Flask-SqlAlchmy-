@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515af206-d969-4a2e-a8bf-44f05473597a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blog_api/blog_api_db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_api/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/blog_api/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -31,7 +45,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog_api/Dockerfile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog_api/run.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -39,7 +53,7 @@
       <recent name="C:\Users\c16159\Desktop\Files\homework\Homework-Setup-Docker-Flask-SqlAlchmy-\blog_api" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Docker-file">
+  <component name="RunManager" selected="Docker.Dockerfile1">
     <configuration name="Docker-file" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -73,7 +87,12 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -107,7 +126,7 @@
       <workItem from="1576099537773" duration="259000" />
       <workItem from="1576100150236" duration="36000" />
       <workItem from="1576101791221" duration="2434000" />
-      <workItem from="1576111767918" duration="306000" />
+      <workItem from="1576111767918" duration="964000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Added new files">
       <created>1575555529209</created>
@@ -333,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576111960135</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Task: updated requiremets file">
+      <created>1576112093326</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1576112093326</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,50 +394,51 @@
     <MESSAGE value="Fix: fixed database" />
     <MESSAGE value="Fix: fixed docker file" />
     <MESSAGE value="Task: updated readme file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task: updated readme file" />
+    <MESSAGE value="Task: updated requiremets file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: updated requiremets file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" key="#Inspections" timestamp="1576001084217">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" key="#Inspections/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576001084217" />
-    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576111786698">
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576112732974">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576111786698" />
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576112732974" />
     <state x="2207" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576106015554" />
     <state x="321" y="67" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575906072800">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="321" y="67" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680@0.0.1280.680" timestamp="1575906072800" />
-    <state x="336" y="0" key="CommitChangelistDialog2" timestamp="1576111959224">
+    <state x="336" y="0" key="CommitChangelistDialog2" timestamp="1576112092322">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="336" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576111959224" />
+    <state x="336" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576112092322" />
     <state x="575" y="228" key="DockerComposeFileDialog" timestamp="1576002899397">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="575" y="228" key="DockerComposeFileDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576002899397" />
-    <state x="516" y="94" key="FileChooserDialogImpl" timestamp="1576098517646">
+    <state x="516" y="94" key="FileChooserDialogImpl" timestamp="1576112560783">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="516" y="94" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576098517646" />
-    <state width="610" height="75" key="GridCell.Tab.0.bottom" timestamp="1576098527959">
+    <state x="516" y="94" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576112560783" />
+    <state width="617" height="220" key="GridCell.Tab.0.bottom" timestamp="1576112736425">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="610" height="75" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576098527959" />
-    <state width="610" height="75" key="GridCell.Tab.0.center" timestamp="1576098527958">
+    <state width="617" height="220" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576112736425" />
+    <state width="617" height="220" key="GridCell.Tab.0.center" timestamp="1576112736425">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="610" height="75" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576098527958" />
-    <state width="610" height="75" key="GridCell.Tab.0.left" timestamp="1576098527958">
+    <state width="617" height="220" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576112736425" />
+    <state width="617" height="220" key="GridCell.Tab.0.left" timestamp="1576112736425">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="610" height="75" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576098527958" />
-    <state width="610" height="75" key="GridCell.Tab.0.right" timestamp="1576098527958">
+    <state width="617" height="220" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576112736425" />
+    <state width="617" height="220" key="GridCell.Tab.0.right" timestamp="1576112736425">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="610" height="75" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576098527958" />
+    <state width="617" height="220" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576112736425" />
     <state x="442" y="149" key="IDE.errors.dialog" timestamp="1576011269391">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -420,12 +447,13 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576002545198" />
-    <state x="228" y="145" key="Vcs.Push.Dialog.v2" timestamp="1576111965094">
+    <state x="228" y="145" key="Vcs.Push.Dialog.v2" timestamp="1576112098966">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="228" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576111965094" />
+    <state x="228" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576112098966" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Homework_Setup_Docker_Flask_SqlAlchmy_$run.coverage" NAME="run Coverage Results" MODIFIED="1576112580359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/blog_api" />
     <SUITE FILE_PATH="coverage/Homework_Setup_Docker_Flask_SqlAlchmy_$Homework_Setup_Docker_Flask_SqlAlchmy_.coverage" NAME="Homework-Setup-Docker-Flask-SqlAlchmy- Coverage Results" MODIFIED="1576105111324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
