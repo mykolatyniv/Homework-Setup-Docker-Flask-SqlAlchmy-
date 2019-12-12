@@ -127,7 +127,7 @@
       <workItem from="1576101791221" duration="2434000" />
       <workItem from="1576111767918" duration="1747000" />
       <workItem from="1576114161058" duration="595000" />
-      <workItem from="1576118883573" duration="542000" />
+      <workItem from="1576118883573" duration="845000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Added new files">
       <created>1575555529209</created>
@@ -395,7 +395,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576119357950</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Task: updated dockerfile">
+      <created>1576119451785</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1576119451785</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Task: updated dockerfile">
+      <created>1576119477274</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1576119477274</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,10 +463,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="321" y="67" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680@0.0.1280.680" timestamp="1575906072800" />
-    <state x="336" y="0" key="CommitChangelistDialog2" timestamp="1576119450966">
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576119885467">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="336" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576119450966" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576119885467" />
+    <state x="336" y="0" key="CommitChangelistDialog2" timestamp="1576119476264">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="336" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576119476264" />
     <state x="2424" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576114507613" />
     <state x="575" y="228" key="DockerComposeFileDialog" timestamp="1576002899397">
       <screen x="0" y="0" width="1280" height="680" />
@@ -486,10 +504,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576002545198" />
-    <state x="228" y="145" key="Vcs.Push.Dialog.v2" timestamp="1576119363214">
+    <state x="228" y="145" key="Vcs.Push.Dialog.v2" timestamp="1576119481115">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="228" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576119363214" />
+    <state x="228" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576119481115" />
     <state x="2262" y="222" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576114513364" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
