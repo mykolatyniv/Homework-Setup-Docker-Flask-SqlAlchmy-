@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="515af206-d969-4a2e-a8bf-44f05473597a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_api/database.conf" beforeDir="false" afterPath="$PROJECT_DIR$/blog_api/database.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +79,17 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Compose: blog_api" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Compose: blog_api" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="database" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
             </expand>
             <select />
           </treeState>
@@ -117,7 +129,7 @@
       <workItem from="1576118883573" duration="1224000" />
       <workItem from="1576120474148" duration="220000" />
       <workItem from="1576122799327" duration="1280000" />
-      <workItem from="1576124188380" duration="1016000" />
+      <workItem from="1576124188380" duration="1342000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Added new files">
       <created>1575555529209</created>
@@ -441,7 +453,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576124375328</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Task: updated database and docker">
+      <created>1576125353233</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1576125353233</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Task: updated database settings">
+      <created>1576125407208</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1576125407208</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,7 +509,8 @@
     <MESSAGE value="Task: removed file" />
     <MESSAGE value="Task: removed files" />
     <MESSAGE value="Task: updated database and docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task: updated database and docker" />
+    <MESSAGE value="Task: updated database settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: updated database settings" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" key="#Inspections" timestamp="1576001084217">
@@ -503,11 +530,11 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576119885467" />
-    <state x="2424" y="0" key="CommitChangelistDialog2" timestamp="1576125352290">
+    <state x="2424" y="0" key="CommitChangelistDialog2" timestamp="1576125406141">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="336" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576124373979" />
-    <state x="2424" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576125352290" />
+    <state x="2424" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576125406141" />
     <state x="575" y="228" key="DockerComposeFileDialog" timestamp="1576124029164">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -543,11 +570,11 @@
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576002545198" />
     <state x="1920" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576122911683" />
-    <state x="2262" y="222" key="Vcs.Push.Dialog.v2" timestamp="1576125357183">
+    <state x="2262" y="222" key="Vcs.Push.Dialog.v2" timestamp="1576125410618">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="228" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576124380223" />
-    <state x="2262" y="222" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576125357183" />
+    <state x="2262" y="222" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576125410618" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Homework_Setup_Docker_Flask_SqlAlchmy_$run.coverage" NAME="run Coverage Results" MODIFIED="1576112580359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/blog_api" />
