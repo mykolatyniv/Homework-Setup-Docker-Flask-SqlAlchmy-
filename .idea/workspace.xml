@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515af206-d969-4a2e-a8bf-44f05473597a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blog_api/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_api/docker-compose.bak" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog_api/database.conf" beforeDir="false" afterPath="$PROJECT_DIR$/blog_api/database.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_api/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/blog_api/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +24,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="blog_api_db" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="Git.Settings">
@@ -48,9 +46,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog_api/docker-compose.yml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IS601_RESTfulAPI-part3" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -114,14 +113,10 @@
       <workItem from="1576120474148" duration="220000" />
       <workItem from="1576122799327" duration="1280000" />
       <workItem from="1576124188380" duration="2260000" />
-      <workItem from="1576157672418" duration="322000" />
-    </task>
-    <task id="LOCAL-00007" summary="Fix: fixed docker file">
-      <created>1575572273060</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1575572273060</updated>
+      <workItem from="1576157672418" duration="457000" />
+      <workItem from="1576161613325" duration="1576000" />
+      <workItem from="1576164715552" duration="182000" />
+      <workItem from="1576260968081" duration="237000" />
     </task>
     <task id="LOCAL-00008" summary="Fix: fixed docker file">
       <created>1575572489561</created>
@@ -459,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576157834853</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Task: updated database settings">
+      <created>1576157998375</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1576157998375</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,10 +511,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" key="#Inspections/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576001084217" />
-    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576124454974">
+    <state x="191" y="214" width="814" height="466" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576162125164">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576124454974" />
+    <state x="191" y="214" width="814" height="466" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576162125164" />
     <state x="2207" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576120693056" />
     <state x="321" y="67" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575906072800">
       <screen x="0" y="0" width="1280" height="680" />
@@ -522,37 +524,41 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576119885467" />
-    <state x="336" y="0" key="CommitChangelistDialog2" timestamp="1576157833767">
+    <state x="336" y="0" key="CommitChangelistDialog2" timestamp="1576157997408">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="336" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576157833767" />
+    <state x="336" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576157997408" />
     <state x="2424" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576126402083" />
     <state x="575" y="228" key="DockerComposeFileDialog" timestamp="1576124029164">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="575" y="228" key="DockerComposeFileDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576124029164" />
     <state x="2783" y="349" key="DockerComposeFileDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576120688417" />
-    <state x="516" y="94" key="FileChooserDialogImpl" timestamp="1576124021282">
+    <state x="516" y="94" key="FileChooserDialogImpl" timestamp="1576163722902">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="516" y="94" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576124021282" />
+    <state x="516" y="94" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576163722902" />
     <state x="2694" y="144" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576122847957" />
-    <state width="617" height="220" key="GridCell.Tab.0.bottom" timestamp="1576113517740">
+    <state width="561" height="15" key="GridCell.Tab.0.bottom" timestamp="1576162191060">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="617" height="220" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576113517740" />
-    <state width="617" height="220" key="GridCell.Tab.0.center" timestamp="1576113517740">
+    <state width="561" height="15" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576162191060" />
+    <state width="561" height="15" key="GridCell.Tab.0.center" timestamp="1576162191059">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="617" height="220" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576113517740" />
-    <state width="617" height="220" key="GridCell.Tab.0.left" timestamp="1576113517740">
+    <state width="561" height="15" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576162191059" />
+    <state width="561" height="15" key="GridCell.Tab.0.left" timestamp="1576162191059">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="617" height="220" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576113517740" />
-    <state width="617" height="220" key="GridCell.Tab.0.right" timestamp="1576113517740">
+    <state width="561" height="15" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576162191059" />
+    <state width="561" height="15" key="GridCell.Tab.0.right" timestamp="1576162191059">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="617" height="220" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576113517740" />
+    <state width="561" height="15" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576162191059" />
+    <state width="198" height="457" key="HiddenNamespacesPopup" timestamp="1576162170852">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="198" height="457" key="HiddenNamespacesPopup/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576162170852" />
     <state x="442" y="149" key="IDE.errors.dialog" timestamp="1576011269391">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -562,10 +568,10 @@
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576002545198" />
     <state x="1920" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576122911683" />
-    <state x="228" y="145" key="Vcs.Push.Dialog.v2" timestamp="1576157840588">
+    <state x="228" y="145" key="Vcs.Push.Dialog.v2" timestamp="1576158002033">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="228" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576157840588" />
+    <state x="228" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1576158002033" />
     <state x="2262" y="222" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1576126407661" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
